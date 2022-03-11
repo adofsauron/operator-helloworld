@@ -2,7 +2,7 @@ domain: com.bolingcavalry
 layout:
 - go.kubebuilder.io/v3
 projectName: helloworld
-repo: std
+repo: hello
 resources:
 - api:
     crdVersion: v1
@@ -11,6 +11,6 @@ resources:
   domain: com.bolingcavalry
   group: webapp
   kind: Guestbook
-  path: std/api/v1
+  path: hello/api/v1
   version: v1
 version: "3"

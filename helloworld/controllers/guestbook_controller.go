@@ -19,12 +19,13 @@ package controllers
 import (
 	"context"
 	"fmt"
-	webappv1 "std/api/v1"
 
 	"k8s.io/apimachinery/pkg/runtime"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/log"
+
+	webappv1 "hello/api/v1"
 )
 
 // GuestbookReconciler reconciles a Guestbook object
