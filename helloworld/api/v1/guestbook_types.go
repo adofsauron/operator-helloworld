@@ -25,7 +25,7 @@ import (
 
 // GuestbookSpec defines the desired state of Guestbook
 type GuestbookSpec struct {
-	// INSERT ADDITIONAL SPEC FIELDS - desired state of cluster
+	// insert ADDITIONAL SPEC FIELDS - desired state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of Guestbook. Edit guestbook_types.go to remove/update
@@ -34,7 +34,7 @@ type GuestbookSpec struct {
 
 // GuestbookStatus defines the observed state of Guestbook
 type GuestbookStatus struct {
-	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
+	// insert ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
 }
 
