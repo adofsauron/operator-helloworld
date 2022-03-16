@@ -1,0 +1,10 @@
+apiVersion: apps.hello.org/v1alpha1
+kind: Application
+metadata:
+  name: application-sample
+spec:
+  # TODO(user): Add fields here
+  foo: barw
+  kubernetesConfig:
+    image: redis:5.0.14
+    imagePullPolicy: IfNotPresent

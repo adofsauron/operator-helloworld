@@ -18,9 +18,11 @@
 2. 启动operator: 
    1. 执行make run
    2. 在linux终端将直接运行operator, 日志为标准控制台输出
-3. 启动测试用的k8s的实例guestbook
+3. 部署crd
+   1. 执行 make install
+4. 启动测试用的k8s的实例guestbook
    1. 执行  kubectl apply -f config/samples/
-4. operator业务逻辑修改
+5. operator业务逻辑修改
    1. 文件 controllers/guestbook_controller.go
    2. 函数 Reconcile 中, 添加业务逻辑
    3. 测试用的 Reconcile 仅包含一条日志输出
